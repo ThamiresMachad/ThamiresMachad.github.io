@@ -16,7 +16,7 @@ body {
     color: #333;
 }
 
-/* Centralização do conteúdo principal */
+/* Container para centralizar o conteúdo */
 .container {
     width: 90%;
     max-width: 1200px;
@@ -37,7 +37,6 @@ header h1 {
     color: rgb(1, 94, 17);
 }
 
-/* Navegação */
 nav ul {
     list-style: none;
     display: flex;
@@ -85,6 +84,7 @@ main {
     margin: 20px 0 10px;
 }
 
+
 .post ul {
     list-style-type: disc;
     margin-left: 20px;
@@ -95,7 +95,7 @@ main {
     margin-bottom: 10px;
 }
 
-/* Imagens */
+/* Estilo geral para as imagens */
 .post-image, .destaque-imagem {
     width: 100%;
     max-width: 800px;
@@ -104,6 +104,7 @@ main {
     display: block;
     border-radius: 8px;
 }
+
 
 .side-image {
     float: left;
@@ -114,13 +115,14 @@ main {
     border-radius: 8px;
 }
 
-/* Seção com imagem e texto */
+
 .texto-com-imagem::after, .post::after {
     content: "";
     display: table;
     clear: both;
 }
 
+/* Estilo para a seção com imagem e texto */
 .texto-com-imagem {
     display: flex;
     align-items: flex-start;
@@ -140,7 +142,7 @@ main {
 
 .texto-com-imagem h3 {
     margin-top: 0;
-    color: #2e8b57;
+    color: #2e8b57; 
 }
 
 /* Rodapé */
@@ -168,7 +170,6 @@ footer {
     nav ul li {
         margin: 10px 0;
     }
-
 }
 
 .image-caption {
@@ -176,13 +177,3 @@ footer {
     color: #555;
     margin-top: 8px;
 }
-
-.side-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-
-
-
